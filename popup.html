@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h3>Configuracion</h3>
+  <div class="field">
+    <label for="option">Tramite</label>
+    <select id="option">
+      <option value="1">Pasaporte</option>
+      <option value="2">DNI</option>
+      <option value="3">Autorizacion de viaje</option>
+      <option value="5">Carta Poder</option>
+      <option value="6">Salvoconducto</option>
+      <option value="7">Declaracion Jurada</option>
+      <option value="8">Legalizacion de Firma</option>
+      <option value="9">Legalizacion de Copias</option>
+      <option value="10">Registro de Nacimiento</option>
+      <option value="11">Certificado de Supervivencia</option>
+    </select>
+  </div>
+  
+  <div class="datetime-field">
+    <div class="field">
+      <label for="date">Fecha</label>
+      <input type="date" id="date">
+    </div>
+    
+    <div class="field">
+      <label for="time">Hora</label>
+      <select id="time">
+      </select>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="field">
+    <label for="firstname">Nombre</label>
+    <input type="text" id="firstname" value="">
+  </div>
+
+  <div class="field">
+    <label for="lastname">Apellido</label>
+    <input type="text" id="lastname" value="">
+  </div>
+
+  <div class="field">
+    <label for="custref">DNI</label>
+    <input type="text" id="custref" value="">
+  </div>
+  
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" id="email">
+  </div>
+  
+  <div class="field">
+    <label for="phone">Telefono</label>
+    <input type="tel" id="phone">
+  </div>
+  
+  <button id="save">Guardar</button>
+  
+</body>
+<script src="popup.js"></script>
+</html>
